@@ -234,7 +234,7 @@ The goal of this step is to arrange the cells into a rough floorplan as shown be
 Before we can move the cells to match this floorplan, we need to do three preliminary steps:
 
 1. **Arrange the schematic and layout windows side by side.**  The layout window should be the wider of the two.  Selecting a cell in one window highlights it in the other.  In this way you can identify the four flip-flops.
-2. **Create the place and route boundary.**  Use **_Create -> Boundary_** and drag out a rough rectangle with the cursor.  Then select it, press **_"q"_** to open its properties, and set the corners points list to `(0 0)`, `(0 5)`, `(30 0)`and `(30 5)`. Press the green tick in the properties tab to apply changes.
+2. **Create the place and route boundary.**  Use **_Create -> Boundary_** and drag out a rough rectangle with the cursor.  Then select it, press **_"q"_** to open its properties, and set the corners points list to `(0 0)`, `(0 5)`, `(30 5)`and `(30 0)`. Press the green tick in the properties tab to apply changes.
 3. **Check the snap grid.**  Open **_Options -> Design_** and look at the **_Snapping & Grids_** tab.  Snap Grid Spacing should read `0.005` in both X and Y.
 
 <p align="center"> <img src="diagrams/snap_grid.png" width="560" height="676"> </p><BR>
