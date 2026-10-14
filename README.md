@@ -519,7 +519,7 @@ The report will say `INCORRECT`.  That is expected.  The layout contains two err
 
 In the **_Calibre RVE_** window, expand **_Comparison Results_** and then **_Discrepancies_**.  Click a discrepancy and the pane below describes it.
 
-The first discrepancy is a missing port.  The source has a `VSS` port and the layout does not.
+The first discrepancy is a missing port.  The source has a `VSS` port and the layout does not. You may also encounter a `DATA_OUT` naming mismatch, which also needs to be fixed because the brackets used differ.
 
 * The row has two horizontal M1 rails carrying VDD and VSS.  They exist because the cells abut.  The `VDD` and `VSS` labels you can see belong to the **standard cells' own layouts**, inside `tcbn65lpbwp7t_9lm`, not to `lfsr4`.  The `VSS` rail has no label of its own at the top level.
 * Make **_M1 pin_** the active layer, use **_Create -> Text_**, and place a `VSS` label on the VSS rail.
